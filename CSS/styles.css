@@ -1,16 +1,18 @@
 img{
-	max-width: 100%
+	max-width: 50%
 }
+
+/*font*/
 body {
 	font-size:16px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Euphoria Script', cursive;
 	line-height: 1.5;
-	background: white;
+	
 
 }
 
 a{
-	tezt-decoration:none;
+	text-decoration:none;
 	font-size: 1em;
 }
 
@@ -21,6 +23,7 @@ p {
 h1, h2,h3 {
 	font-family: 'Shrikhand', cursive
 	font-weight: bold;
+	font-size: 1.5em;
 }
 
 h1{
@@ -35,7 +38,7 @@ header h1, header h2 {
 	margin: 0 0 0 10px;
 	text-align: center;
 	 
-	
+	/*navigation bar*/
 	
 }
 
@@ -43,7 +46,7 @@ nav {
 	text-align: center;
 	padding: 10px 0 10px 0;
 	margin: 10px 0 0 0;
-	border-bottom: 2px solid gray;
+	border-bottom: 1px solid gray;
 	background: grey;
 }
 
@@ -61,7 +64,7 @@ nav ul li {
 
 nav a {
 	display: block
-	color: red;
+	color: grey;
 	font-weight: bold;
 	padding: 8px;
 	margin: 0;
@@ -72,21 +75,23 @@ nav a {
 nav a:hover, nav a.selected {
 	transition-duration: 500ms;
 	background: pink
-	color; pink;
+	color; grey;
 	border-radius: 5%
 	padding= 5%
 }
 
+/*MAIN*/
 main
-{color: red;
+{color: white;
 	margin: 0 15px;
 }
 
+/*footer*/
 footer{
-	background:gray
+	background: grey;
 	color:#484444;
-	padding: 5% 0 0 0 0
-	text-align: left ;
+	padding: 5% 0 0 0;
+	text-align: center;
 	clear: both;
 }
 
@@ -101,6 +106,7 @@ border-radius: 0%;
 	text-align: center;
 
 }
+/*contact section*/
 
 #contact ul {
 	list-style: none;
@@ -109,32 +115,26 @@ border-radius: 0%;
 }
 
 #contact-list a{
-	color: red;
+	color: grey;
 	padding:5%;
 }
 
-#portfolio img {
-	display:block;
-	border-radius: 0%;
-	margin: auto;
-	text-align: left;
 
 .contact-icon {
 	margin: 0 5px 0 0;
 	padding: 10px
-	background: red;
+	background: grey;
 	border radius: 100%;
 	font-size; 0.75em;
-
-
 }
 
 
 #contact-list a:hover i.contact-icon, li.social-icon a:hover {
 	transition-duration: : 500ms;
-background: white;
-color: red;
+	background: white;
+	color: gray;
 }
+/*social icon section*/
 
 .social-icon-list {
 	list-style: none;
@@ -143,7 +143,7 @@ color: red;
 	padding: 0;
 }
 
-li.social-icon{
+li.social-icon {
 	display: inline-block;
 	margin: 0 6px;
 
@@ -155,4 +155,38 @@ li.social-icon a {
 	padding: 10px;
 	background: gray;
 	border-radius: 25%;
+	text-align: center
 }
+
+/* portfolio*/
+
+#portfolio img {
+	display:block;
+	border-radius: 0%;
+	margin: auto;
+	text-align: left;
+}
+
+#portfolio ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-align: center;
+}
+
+#portfolio li{
+	float; left;
+	width: 45%;
+	margin: 2.5%
+	background:grey;
+}
+
+#portfolio p{
+	color: white;
+	padding: 5% 0 10% 0;
+}
+
+#portfolio li:nth-child(odd){
+	clear: left;
+}
+
