@@ -5,7 +5,7 @@ body {
 	font-size:16px;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
-	background-image: url("https://cdn1.vectorstock.com/i/thumb-large/08/45/abstract-gray-background-for-design-vector-5810845.jpg")
+	background: white;
 
 }
 
@@ -34,7 +34,7 @@ h2, h3 {
 header h1, header h2 {
 	margin: 0 0 0 10px;
 	text-align: center;
-	background-image: : url ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQH6J0gt3PLbXI94ithZXwexUnGQT7fMi24-vguMw5uv5uR2dBRg") 
+	 
 	
 	
 }
@@ -66,6 +66,7 @@ nav a {
 	padding: 8px;
 	margin: 0;
 	background: white;
+
 }
 
 nav a:hover, nav a.selected {
@@ -86,6 +87,7 @@ footer{
 	color:#484444;
 	padding: 5% 0 0 0 0
 	text-align: left ;
+	clear: both;
 }
 
 footer p{
@@ -128,7 +130,29 @@ border-radius: 0%;
 }
 
 
-#contact-list a:hover i.contact-icon{
-	
+#contact-list a:hover i.contact-icon, li.social-icon a:hover {
+	transition-duration: : 500ms;
+background: white;
+color: red;
+}
 
+.social-icon-list {
+	list-style: none;
+	display:block;
+	margin: 20px 0;
+	padding: 0;
+}
+
+li.social-icon{
+	display: inline-block;
+	margin: 0 6px;
+
+}
+
+li.social-icon a {
+	transition-duration: 500ms;
+	color: #fff;
+	padding: 10px;
+	background: gray;
+	border-radius: 25%;
 }
