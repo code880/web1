@@ -1,0 +1,134 @@
+img{
+	max-width: 100%
+}
+body {
+	font-size:16px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	background-image: url("https://cdn1.vectorstock.com/i/thumb-large/08/45/abstract-gray-background-for-design-vector-5810845.jpg")
+
+}
+
+a{
+	tezt-decoration:none;
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
+}
+
+h1, h2,h3 {
+	font-family: 'Shrikhand', cursive
+	font-weight: bold;
+}
+
+h1{
+	font-size; 2.5em;
+}
+
+h2, h3 {
+	font-size: 1.5em;
+}
+
+header h1, header h2 {
+	margin: 0 0 0 10px;
+	text-align: center;
+	background-image: : url ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQH6J0gt3PLbXI94ithZXwexUnGQT7fMi24-vguMw5uv5uR2dBRg") 
+	
+	
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 0 0;
+	border-bottom: 2px solid gray;
+	background: grey;
+}
+
+nav ul{
+	list-style: none;
+	margin: 2.5%;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 25%;
+	padding: 0;
+}
+
+nav a {
+	display: block
+	color: red;
+	font-weight: bold;
+	padding: 8px;
+	margin: 0;
+	background: white;
+}
+
+nav a:hover, nav a.selected {
+	transition-duration: 500ms;
+	background: pink
+	color; pink;
+	border-radius: 5%
+	padding= 5%
+}
+
+main
+{color: red;
+	margin: 0 15px;
+}
+
+footer{
+	background:gray
+	color:#484444;
+	padding: 5% 0 0 0 0
+	text-align: left ;
+}
+
+footer p{
+	margin-top: 40px;
+}
+
+#about-me img {
+display: block;
+border-radius: 0%;
+	margin: auto;
+	text-align: center;
+
+}
+
+#contact ul {
+	list-style: none;
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+#contact-list a{
+	color: red;
+	padding:5%;
+}
+
+#portfolio img {
+	display:block;
+	border-radius: 0%;
+	margin: auto;
+	text-align: left;
+
+.contact-icon {
+	margin: 0 5px 0 0;
+	padding: 10px
+	background: red;
+	border radius: 100%;
+	font-size; 0.75em;
+
+
+}
+
+
+#contact-list a:hover i.contact-icon{
+	
+
+}
